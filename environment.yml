@@ -1,0 +1,11 @@
+name: pycompressor
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - some-pypi-package
